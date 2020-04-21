@@ -1,7 +1,17 @@
-.body1{
-background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
-background-size: cover;
+/* PRINCIPALE */
+
+
+html{
+  margin: 0;
+  padding: 0;
 }
+
+body{
+  background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
+  background-size: cover;
+  }
+  
+/* HEADER */
 
 
 header{
@@ -20,21 +30,28 @@ margin-left: 10%;
 font-size: 120%;
 justify-content: space-around;
 }
+
 .header-a{
 text-decoration: none;
 color: black;
 }
 
-.bienvenue{
-margin-top: 3%;
-color: black;
-}
+/* ACCUEIL */
 
-.ouii{
-animation: loop 10s infinite;
-font-family: cursive;
-color: yellow;
-}
+.article1{
+  display: block;
+text-align: center;
+padding: 3%;
+ }
+
+.article1 h2{
+    animation: loop 10s infinite;
+    font-family: cursive;
+    color: yellow;
+ }
+
+
+
 
 @keyframes loop{
     0%{ transform: translateY(0px)
@@ -54,111 +71,131 @@ color: yellow;
     }
 }
 
-.welcolme{
+.video{
 width: 560px;
 height: 315px;
 }
 
-.bouge{
-justify-content: space-around;
-display: flex;
+
+
+/* PRESENTATION */
+
+.article2{
+
+display: block;
+flex-direction: row;
+padding: 3%;
 }
 
-.body2{
-background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
-background-size: cover;
-}
-
-.premier{
+.article2 h2 p {
+  font-size: 6mm;
 color: white;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 7mm;
 }
 
-.vivi{
-width: 560px;
-height: 315px;
-justify-content: space-around;
-margin-left: 3%;
+.video2{
+  width: 560px;
+  height: 315px;
+  
 }
 
-.body3{
-background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
-background-size: cover;
+.cadrage{
+  text-align: center;
+  justify-content: space-between;
 }
+
+/* PLANTES */
 
 .foto{
 height:225px;
 width: 460px;
-margin-left:30%;
 }
 
-.plantes{
+#article3{
 font-family: cursive;
 color: white;
 margin-top: 4%;
 text-align: center;
 }
 
-.ecriture{
+#article3 h2{
 font-family: cursive;
 color: yellow;
 }
 
 
-.body4{
-background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
-background-size: cover;
+/* LEGUMES */
+
+
+
+#article4{
+display:block;
+flex-direction: row;
+padding: 3%;
+
 }
 
-.body5{
-background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
-background-size: cover;
+#article4 h2 {
+color: white;
+margin-left: 7mm;
 }
 
-.leg{
+#article4 h3{
+  color: yellow;
+  font-size: 140%;
+  margin-left: 7mm;
+
+}
+
+
+.image1{
+height: 220px;
+width: 360px;
+}
+
+
+/* ARBUSTES */
+
+#article5 li{
+  font-family: cursive;
+color: yellow;
+}
+
+#article5 ul{
+  color: white;
+  box-shadow: 10px 5px 5px white;
+}
+
+
+#article5 h3{
+  color: white;
+
+}
+
+
+#article5{
+  display: flex;
+  padding: 3%;
+ 
+}
+
+.photo{
+  height: 320px;
+  width: 460px;
+  position: relative;
+  margin-left: 2%;
+  }
+
+
+/* FOOTER */
+
+
+.footer1{
 display: inline-flex;
-font-family: cursive;
-color: yellow;
-}
-
-.couleur{
-color: white;
-}
-
-
-.avant{
-height: 320px;
-width: 460px;
-margin-top: 3%;
-}
-
-.body6{
-background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
-background-size: cover;
-}
-
-.legumes{
-display: flex;
-font-family: cursive;
-color: yellow;
-}
-
-.coul{
-color: white;
-box-shadow: 10px 5px 5px white;
-}
-
-
-.av{
-height: 320px;
-width: 460px;
-margin-top: 3%;
-margin-left: 5%;
-}
-
-.log{
+flex-direction: row;
 margin-left: 36%;
 margin-right: 36%;
-flex-direction: column;
 }
 
 
